@@ -1,6 +1,6 @@
 # PageRank
 
-PageRank Algorithm
+PageRank Algorithm in C++.
 
 ## Features
 
@@ -43,6 +43,15 @@ Then, run the below command to execute the PageRank program:
 > [!WARNING]
 >
 > **WARNING:** Although the default directory of `PageRank` is in the same directory with `CMakeLists.txt` , that depends on your build system.
+
+**Usage**:
+
+```sh
+Usage: ./PageRank [-beta <beta>] [-block <numBlocks>]
+Options:
+  -beta <beta>        Damping factor (default: 0.85)
+  -block <numBlocks>  Number of blocks (default: using Basic Update Algorithm)
+```
 
 ### DataSet
 
